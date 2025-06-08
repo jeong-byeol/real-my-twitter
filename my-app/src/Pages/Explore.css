@@ -1,0 +1,88 @@
+.telegram-explore-container {
+  background: #e6ecf0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.telegram-explore-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 250px 250px 24px 28px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.telegram-explore-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #229ed9;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.telegram-trend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.telegram-trend-item {
+  background: #f5f8fa;
+  border-radius: 10px;
+  padding: 8px 14px;
+  color: #229ed9;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.telegram-user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.telegram-user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f8fa;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.telegram-follow-btn {
+  background: linear-gradient(90deg, #229ed9 0%, #41bdfc 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(34,158,217,0.10);
+}
+
+.telegram-follow-btn:hover {
+  background: linear-gradient(90deg, #41bdfc 0%, #229ed9 100%);
+}
+
+.telegram-follow-btn.followed {
+  background: #bfc9d1 !important;
+  color: #fff !important;
+  cursor: default;
+  box-shadow: none;
+}
+
+.telegram-follow-btn.followed:hover {
+  background: #bfc9d1 !important;
+}

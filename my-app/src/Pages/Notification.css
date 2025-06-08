@@ -1,0 +1,41 @@
+.telegram-notification-container {
+  background: #e6ecf0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-notification-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 650px 280px 24px 28px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.telegram-notification-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #229ed9;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.telegram-notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.telegram-notification-item {
+  background: #f5f8fa;
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #444;
+  font-size: 1.05rem;
+}

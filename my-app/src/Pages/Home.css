@@ -1,0 +1,62 @@
+.telegram-home-container {
+  background: #e6ecf0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-home-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 400px 100px 24px 28px;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.telegram-home-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #229ed9;
+  margin-bottom: 8px;
+  text-align: center;
+  
+}
+
+.telegram-profile-info {
+  background: #f5f8fa;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.telegram-tweet-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.telegram-tweet-item {
+  background: #f5f8fa;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 2px rgba(34,158,217,0.04);
+}
+
+.telegram-tweet-title {
+  font-weight: 600;
+  color: #229ed9;
+  margin-bottom: 4px;
+}
+
+.telegram-tweet-text {
+  color: #222;
+  font-size: 1rem;
+}
