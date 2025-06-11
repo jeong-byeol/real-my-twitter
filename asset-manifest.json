@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/real-my-twitter/static/css/main.062bbc66.css",
+    "main.js": "/real-my-twitter/static/js/main.225aaa6b.js",
+    "index.html": "/real-my-twitter/index.html",
+    "main.062bbc66.css.map": "/real-my-twitter/static/css/main.062bbc66.css.map",
+    "main.225aaa6b.js.map": "/real-my-twitter/static/js/main.225aaa6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.062bbc66.css",
+    "static/js/main.225aaa6b.js"
+  ]
+}
